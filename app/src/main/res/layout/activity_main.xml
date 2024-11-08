@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_marginBottom="20dp"
+        android:background="#E0E0E0"
+        android:contentDescription="@string/selfie_image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnTakeSelfie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Зробити селфі"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnSendSelfie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Відіслати селфі"
+            android:backgroundTint="#3F51B5"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
